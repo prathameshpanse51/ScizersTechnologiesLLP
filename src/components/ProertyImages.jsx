@@ -2,17 +2,17 @@ import React from "react";
 
 export default function ProertyImages() {
   const images = [
-    "https://townbridges.com/wp-content/uploads/2023/07/harbour-lights-11-1110x623.webp",
-    "https://media-cdn.tripadvisor.com/media/photo-s/15/3b/32/2b/cc-quantum-of-the-seas.jpg",
-    "https://s3-alpha-sig.figma.com/img/9774/c7c4/eb00973257c63ccc544b2553b0bcc8fc?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IGx5jxQjvMsLlPMNwvcOZrEgcCcgd-uQqqg5Sy4Fx645WgIY4sK~bQ9I-5TE30rlWDOz7TEhGdO5D~HWVFaqz7TJ-QO5JAx4Kay76Hkmr6G-~sTCPjXaz7a9Hj5kwwq5DMB~QyC4F62W8XVpUJmB4HtO9mlAev5BYuTalYJza21szHiSqtDd-lqYNa7NR6Aqvvf1hmFBr8CWGfgkP8vXgRnJWVfsZrHrfnSR0oYWWkH8fC2ohFPCARMYFVn2UVm0elFUhq~K4GvXpxyPlr~Udlu1SpDe5U2unIawzwlFiPeITQGOhA08JMWnbZzUeFxx030M50CzgPfV9VLvwb~vsQ__",
-    "https://s3-alpha-sig.figma.com/img/fe74/8d0c/ff4d72c2404d943f7dc586b7bf15d714?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JW-rFRrUnNKh5J5XrSMyhB24ztZxYawlBxmMQaYACbq~eI9ZluEMmKcY2m84u3r6FqlkhN5pVs789-pclfzT8YFqWL2uKqRPtLzprP7Vl1LcKsefIC6QAmqBYGgOsAR0lCmN0KhbPIhH3IRAAFh6Yku-a5opEkEdUA2kmSGI8eHBkl2WQ5zWt-ECWvonS6ijg4UjpH~Eyswyn6efNgwuiYJzIGIZeUtONBuGYUYvZxR1bk9zrpiGJZXk9cY9nD2vl3fk6ZPlSr9r5ymEwb7BiK1W6aSOq2OXUQBYpzVpxLMDfZeg8iVwDvS3ISTASDA4qoQajuEU2ODird33SjXA6w__",
+    "https://ik.imagekit.io/qz6ubt34n4/harbour-lights-11-1110x623.webp?updatedAt=1718649997935",
+    "https://ik.imagekit.io/qz6ubt34n4/cc-quantum-of-the-seas.jpg?updatedAt=1718649658485",
+    "https://ik.imagekit.io/qz6ubt34n4/suiimg?updatedAt=1718650090792",
+    "https://ik.imagekit.io/qz6ubt34n4/suimng2?updatedAt=1718650128836",
   ];
   return (
     <>
       <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-full ">
           <img
-            src="https://townbridges.com/wp-content/uploads/2023/07/harbour-lights-1-1110x623.webp"
+            src="https://ik.imagekit.io/qz6ubt34n4/harbour-lights-1-1110x623.webp?updatedAt=1718649960982"
             className="w-full rounded-2xl px-0 md:mx-40"
           />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 md:left-44 right-5 md:right-44 top-1/2">

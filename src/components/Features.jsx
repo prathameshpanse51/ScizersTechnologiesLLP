@@ -54,7 +54,7 @@ export default function Features() {
 
           <img
             className="absolute bottom-[79px] left-[24px] md:bottom-[104px] md:left-[32px] rounded-full w-[70%] h-[52%] md:w-[75%] md:h-[60%]"
-            src="https://www.miva.ae/wp-content/uploads/2023/03/harbour-lights-1.jpg"
+            src="https://ik.imagekit.io/qz6ubt34n4/harbour-lights-1.jpg?updatedAt=1718636682922"
             alt=""
           />
           <div
@@ -103,7 +103,7 @@ export default function Features() {
 
           <img
             className="absolute bottom-[79px] left-[24px] md:bottom-[104px] md:left-[32px] rounded-full w-[70%] h-[52%] md:w-[75%] md:h-[60%]"
-            src="https://i.pinimg.com/564x/92/f5/dd/92f5ddc480e59b1a8b0c8e2529aa305e.jpg"
+            src="https://ik.imagekit.io/qz6ubt34n4/92f5ddc480e59b1a8b0c8e2529aa305e.jpg?updatedAt=1718649607659"
             alt=""
           />
           <div
@@ -152,7 +152,7 @@ export default function Features() {
 
           <img
             className="absolute bottom-[79px] left-[24px] md:bottom-[104px] md:left-[32px] rounded-full w-[70%] h-[52%] md:w-[75%] md:h-[60%]"
-            src="https://media-cdn.tripadvisor.com/media/photo-s/15/3b/32/2b/cc-quantum-of-the-seas.jpg"
+            src="https://ik.imagekit.io/qz6ubt34n4/cc-quantum-of-the-seas.jpg?updatedAt=1718649658485"
             alt=""
           />
           <div
@@ -200,8 +200,8 @@ export default function Features() {
           </svg>
 
           <img
-            className="absolute bottom-[79px] left-[24px] md:bottom-[104px] md:left-[32px] rounded-full w-[70%] h-[52%] md:w-[75%] md:h-[60%]"
-            src="https://media-cdn.tripadvisor.com/media/photo-w/0d/36/24/89/the-address-dubai-marina.jpg"
+            className="absolute bottom-[79px] left-[26px] md:bottom-[104px] md:left-[32px] rounded-full w-[69%] h-[52%] md:w-[75%] md:h-[60%]"
+            src="https://ik.imagekit.io/qz6ubt34n4/the-address-dubai-marina.jpg?updatedAt=1718649740616"
             alt=""
           />
           <div
