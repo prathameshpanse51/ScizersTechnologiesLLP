@@ -46,7 +46,7 @@ export default function Landing() {
                   </div>
                   <ul
                     tabIndex={0}
-                    className="right-0 menu menu-sm dropdown-content mt-3 z-[1] p-6 py-10 shadow bg-base-100 rounded-box w-64 h-[40vh]"
+                    className="right-0 menu menu-sm dropdown-content mt-3 z-[1] p-6 py-10 h-[80vh] shadow bg-base-100 rounded-box w-[80vw]"
                   >
                     <li>
                       <a className="poppins-bold btn rounded-lg tracking-wider py-[12px] px-[44px] border-[3px] border-[#17ABFF] text-[#17ABFF] text-sm font-bold bg-transparent hover:bg-[#17ABFF] hover:border-[#17ABFF] hover:text-white hover:transition hover:duration-1000">

@@ -219,6 +219,16 @@ export default function Features() {
         *T&Cs apply | ** Based on similar branded projects in the last 2 years.
         Source 1 | Source 2
       </p>
+
+      <div className="flex flex-row justify-center md:justify-end gap-3 md:mx-40 my-12">
+        <button className="poppins-bold text-sm bg-[#00357B] text-white px-10 md:px-12 py-4 tracking-wider rounded border-2 border-[#00357B] hover:bg-white hover:text-[#00357B] transition hover:duration-700">
+          EXTERIORS
+        </button>
+
+        <button className="poppins-bold text-sm text-[#00357B] bg-white px-10 md:px-12 py-4 tracking-wider rounded border-2 border-[#00357B] hover:text-white hover:bg-[#00357B] transition hover:duration-700">
+          INTERIORS
+        </button>
+      </div>
     </>
   );
 }
