@@ -1,5 +1,6 @@
 import React from "react";
 import Harbour from "./Harbour";
+import { Bounce } from "react-awesome-reveal";
 
 export default function Features() {
   return (
@@ -18,201 +19,209 @@ export default function Features() {
       </div>
 
       <section className="flex flex-row flex-wrap justify-evenly my-8 md:mx-20">
-        <div className=" w-fit rounded-3xl p-4 relative flex flex-col items-center">
-          <svg
-            width="206"
-            height="118"
-            viewBox="0 0 206 118"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="hidden md:block"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M205.307 115.015C205.765 111.073 206 107.064 206 103C206 46.1147 159.885 0 103 0C46.1147 0 0 46.1147 0 103C0 107.854 0.335721 112.629 0.985209 117.304C4.14398 115.216 7.93002 114 12 114H199C201.204 114 203.324 114.356 205.307 115.015Z"
-              fill="#D9D9D9"
-              fill-opacity="0.54"
-            />
-          </svg>
-          <svg
-            width="126"
-            height="75"
-            viewBox="0 0 126 75"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="block md:hidden"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M124.426 72.5699C124.968 69.2631 125.249 65.8689 125.249 62.409C125.249 27.9415 97.308 0 62.8405 0C28.3729 0 0.431458 27.9415 0.431458 62.409C0.431458 66.6266 0.849829 70.7465 1.64733 74.7294C5.24925 71.2293 10.165 69.0739 15.5842 69.0739H113.126C117.32 69.0739 121.211 70.3644 124.426 72.5699Z"
-              fill="#D9D9D9"
-              fill-opacity="0.54"
-            />
-          </svg>
+        <Bounce triggerOnce>
+          <div className=" w-fit rounded-3xl p-4 relative flex flex-col items-center">
+            <svg
+              width="206"
+              height="118"
+              viewBox="0 0 206 118"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="hidden md:block"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M205.307 115.015C205.765 111.073 206 107.064 206 103C206 46.1147 159.885 0 103 0C46.1147 0 0 46.1147 0 103C0 107.854 0.335721 112.629 0.985209 117.304C4.14398 115.216 7.93002 114 12 114H199C201.204 114 203.324 114.356 205.307 115.015Z"
+                fill="#D9D9D9"
+                fill-opacity="0.54"
+              />
+            </svg>
+            <svg
+              width="126"
+              height="75"
+              viewBox="0 0 126 75"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="block md:hidden"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M124.426 72.5699C124.968 69.2631 125.249 65.8689 125.249 62.409C125.249 27.9415 97.308 0 62.8405 0C28.3729 0 0.431458 27.9415 0.431458 62.409C0.431458 66.6266 0.849829 70.7465 1.64733 74.7294C5.24925 71.2293 10.165 69.0739 15.5842 69.0739H113.126C117.32 69.0739 121.211 70.3644 124.426 72.5699Z"
+                fill="#D9D9D9"
+                fill-opacity="0.54"
+              />
+            </svg>
 
-          <img
-            className="absolute bottom-[79px] left-[24px] md:bottom-[104px] md:left-[32px] rounded-full w-[70%] h-[52%] md:w-[75%] md:h-[60%]"
-            src="https://ik.imagekit.io/qz6ubt34n4/harbour-lights-1.jpg?updatedAt=1718636682922"
-            alt=""
-          />
-          <div
-            className="bg-[#FCFCFC] w-fit rounded-3xl px-[40px] md:px-[80px] pt-[50px] md:pt-[100px] pb-[20px]"
-            style={{ boxShadow: "0px 14px 34px -10px #7E7E7E59" }}
-          >
-            <p className="text-[#00357B] poppins-bold font-semibold text-center text-xs md:text-base">
-              Floating <br />
-              Pools
-            </p>
+            <img
+              className="absolute bottom-[79px] left-[24px] md:bottom-[104px] md:left-[32px] rounded-full w-[70%] h-[52%] md:w-[75%] md:h-[60%]"
+              src="https://ik.imagekit.io/qz6ubt34n4/harbour-lights-1.jpg?updatedAt=1718636682922"
+              alt=""
+            />
+            <div
+              className="bg-[#FCFCFC] w-fit rounded-3xl px-[40px] md:px-[80px] pt-[50px] md:pt-[100px] pb-[20px]"
+              style={{ boxShadow: "0px 14px 34px -10px #7E7E7E59" }}
+            >
+              <p className="text-[#00357B] poppins-bold font-semibold text-center text-xs md:text-base">
+                Floating <br />
+                Pools
+              </p>
+            </div>
           </div>
-        </div>
-        <div className=" w-fit rounded-3xl p-4 relative flex flex-col items-center">
-          <svg
-            width="206"
-            height="118"
-            viewBox="0 0 206 118"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="hidden md:block"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M205.307 115.015C205.765 111.073 206 107.064 206 103C206 46.1147 159.885 0 103 0C46.1147 0 0 46.1147 0 103C0 107.854 0.335721 112.629 0.985209 117.304C4.14398 115.216 7.93002 114 12 114H199C201.204 114 203.324 114.356 205.307 115.015Z"
-              fill="#D9D9D9"
-              fill-opacity="0.54"
-            />
-          </svg>
-          <svg
-            width="126"
-            height="75"
-            viewBox="0 0 126 75"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="block md:hidden"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M124.426 72.5699C124.968 69.2631 125.249 65.8689 125.249 62.409C125.249 27.9415 97.308 0 62.8405 0C28.3729 0 0.431458 27.9415 0.431458 62.409C0.431458 66.6266 0.849829 70.7465 1.64733 74.7294C5.24925 71.2293 10.165 69.0739 15.5842 69.0739H113.126C117.32 69.0739 121.211 70.3644 124.426 72.5699Z"
-              fill="#D9D9D9"
-              fill-opacity="0.54"
-            />
-          </svg>
+        </Bounce>
+        <Bounce delay={100} triggerOnce>
+          <div className=" w-fit rounded-3xl p-4 relative flex flex-col items-center">
+            <svg
+              width="206"
+              height="118"
+              viewBox="0 0 206 118"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="hidden md:block"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M205.307 115.015C205.765 111.073 206 107.064 206 103C206 46.1147 159.885 0 103 0C46.1147 0 0 46.1147 0 103C0 107.854 0.335721 112.629 0.985209 117.304C4.14398 115.216 7.93002 114 12 114H199C201.204 114 203.324 114.356 205.307 115.015Z"
+                fill="#D9D9D9"
+                fill-opacity="0.54"
+              />
+            </svg>
+            <svg
+              width="126"
+              height="75"
+              viewBox="0 0 126 75"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="block md:hidden"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M124.426 72.5699C124.968 69.2631 125.249 65.8689 125.249 62.409C125.249 27.9415 97.308 0 62.8405 0C28.3729 0 0.431458 27.9415 0.431458 62.409C0.431458 66.6266 0.849829 70.7465 1.64733 74.7294C5.24925 71.2293 10.165 69.0739 15.5842 69.0739H113.126C117.32 69.0739 121.211 70.3644 124.426 72.5699Z"
+                fill="#D9D9D9"
+                fill-opacity="0.54"
+              />
+            </svg>
 
-          <img
-            className="absolute bottom-[79px] left-[24px] md:bottom-[104px] md:left-[32px] rounded-full w-[70%] h-[52%] md:w-[75%] md:h-[60%]"
-            src="https://ik.imagekit.io/qz6ubt34n4/92f5ddc480e59b1a8b0c8e2529aa305e.jpg?updatedAt=1718649607659"
-            alt=""
-          />
-          <div
-            className="bg-[#FCFCFC] w-fit rounded-3xl px-[15px] md:px-[45px] pt-[50px] md:pt-[100px] pb-[20px]"
-            style={{ boxShadow: "0px 14px 34px -10px #7E7E7E59" }}
-          >
-            <p className="text-[#00357B] poppins-bold font-semibold text-center text-xs md:text-base">
-              Spacious Cabins <br />
-              Like Rooms
-            </p>
+            <img
+              className="absolute bottom-[79px] left-[24px] md:bottom-[104px] md:left-[32px] rounded-full w-[70%] h-[52%] md:w-[75%] md:h-[60%]"
+              src="https://ik.imagekit.io/qz6ubt34n4/92f5ddc480e59b1a8b0c8e2529aa305e.jpg?updatedAt=1718649607659"
+              alt=""
+            />
+            <div
+              className="bg-[#FCFCFC] w-fit rounded-3xl px-[15px] md:px-[45px] pt-[50px] md:pt-[100px] pb-[20px]"
+              style={{ boxShadow: "0px 14px 34px -10px #7E7E7E59" }}
+            >
+              <p className="text-[#00357B] poppins-bold font-semibold text-center text-xs md:text-base">
+                Spacious Cabins <br />
+                Like Rooms
+              </p>
+            </div>
           </div>
-        </div>
-        <div className=" w-fit rounded-3xl p-4 relative flex flex-col items-center">
-          <svg
-            width="206"
-            height="118"
-            viewBox="0 0 206 118"
-            fill="none"
-            className="hidden md:block"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M205.307 115.015C205.765 111.073 206 107.064 206 103C206 46.1147 159.885 0 103 0C46.1147 0 0 46.1147 0 103C0 107.854 0.335721 112.629 0.985209 117.304C4.14398 115.216 7.93002 114 12 114H199C201.204 114 203.324 114.356 205.307 115.015Z"
-              fill="#D9D9D9"
-              fill-opacity="0.54"
-            />
-          </svg>
-          <svg
-            width="126"
-            height="75"
-            viewBox="0 0 126 75"
-            fill="none"
-            className="block md:hidden"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M124.426 72.5699C124.968 69.2631 125.249 65.8689 125.249 62.409C125.249 27.9415 97.308 0 62.8405 0C28.3729 0 0.431458 27.9415 0.431458 62.409C0.431458 66.6266 0.849829 70.7465 1.64733 74.7294C5.24925 71.2293 10.165 69.0739 15.5842 69.0739H113.126C117.32 69.0739 121.211 70.3644 124.426 72.5699Z"
-              fill="#D9D9D9"
-              fill-opacity="0.54"
-            />
-          </svg>
+        </Bounce>
+        <Bounce delay={200} triggerOnce>
+          <div className=" w-fit rounded-3xl p-4 relative flex flex-col items-center">
+            <svg
+              width="206"
+              height="118"
+              viewBox="0 0 206 118"
+              fill="none"
+              className="hidden md:block"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M205.307 115.015C205.765 111.073 206 107.064 206 103C206 46.1147 159.885 0 103 0C46.1147 0 0 46.1147 0 103C0 107.854 0.335721 112.629 0.985209 117.304C4.14398 115.216 7.93002 114 12 114H199C201.204 114 203.324 114.356 205.307 115.015Z"
+                fill="#D9D9D9"
+                fill-opacity="0.54"
+              />
+            </svg>
+            <svg
+              width="126"
+              height="75"
+              viewBox="0 0 126 75"
+              fill="none"
+              className="block md:hidden"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M124.426 72.5699C124.968 69.2631 125.249 65.8689 125.249 62.409C125.249 27.9415 97.308 0 62.8405 0C28.3729 0 0.431458 27.9415 0.431458 62.409C0.431458 66.6266 0.849829 70.7465 1.64733 74.7294C5.24925 71.2293 10.165 69.0739 15.5842 69.0739H113.126C117.32 69.0739 121.211 70.3644 124.426 72.5699Z"
+                fill="#D9D9D9"
+                fill-opacity="0.54"
+              />
+            </svg>
 
-          <img
-            className="absolute bottom-[79px] left-[24px] md:bottom-[104px] md:left-[32px] rounded-full w-[70%] h-[52%] md:w-[75%] md:h-[60%]"
-            src="https://ik.imagekit.io/qz6ubt34n4/cc-quantum-of-the-seas.jpg?updatedAt=1718649658485"
-            alt=""
-          />
-          <div
-            className="bg-[#FCFCFC] w-fit rounded-3xl px-[15px] md:px-[45px] pt-[50px] md:pt-[100px] pb-[20px]"
-            style={{ boxShadow: "0px 14px 34px -10px #7E7E7E59" }}
-          >
-            <p className="text-[#00357B] poppins-bold font-semibold text-center text-xs md:text-base">
-              Sea Facing <br />
-              Swimming Pools
-            </p>
+            <img
+              className="absolute bottom-[79px] left-[24px] md:bottom-[104px] md:left-[32px] rounded-full w-[70%] h-[52%] md:w-[75%] md:h-[60%]"
+              src="https://ik.imagekit.io/qz6ubt34n4/cc-quantum-of-the-seas.jpg?updatedAt=1718649658485"
+              alt=""
+            />
+            <div
+              className="bg-[#FCFCFC] w-fit rounded-3xl px-[15px] md:px-[45px] pt-[50px] md:pt-[100px] pb-[20px]"
+              style={{ boxShadow: "0px 14px 34px -10px #7E7E7E59" }}
+            >
+              <p className="text-[#00357B] poppins-bold font-semibold text-center text-xs md:text-base">
+                Sea Facing <br />
+                Swimming Pools
+              </p>
+            </div>
           </div>
-        </div>
-        <div className=" w-fit rounded-3xl p-4 relative flex flex-col items-center">
-          <svg
-            width="206"
-            height="118"
-            viewBox="0 0 206 118"
-            fill="none"
-            className="hidden md:block"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M205.307 115.015C205.765 111.073 206 107.064 206 103C206 46.1147 159.885 0 103 0C46.1147 0 0 46.1147 0 103C0 107.854 0.335721 112.629 0.985209 117.304C4.14398 115.216 7.93002 114 12 114H199C201.204 114 203.324 114.356 205.307 115.015Z"
-              fill="#D9D9D9"
-              fill-opacity="0.54"
-            />
-          </svg>
-          <svg
-            width="126"
-            height="75"
-            viewBox="0 0 126 75"
-            fill="none"
-            className="block md:hidden"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M124.426 72.5699C124.968 69.2631 125.249 65.8689 125.249 62.409C125.249 27.9415 97.308 0 62.8405 0C28.3729 0 0.431458 27.9415 0.431458 62.409C0.431458 66.6266 0.849829 70.7465 1.64733 74.7294C5.24925 71.2293 10.165 69.0739 15.5842 69.0739H113.126C117.32 69.0739 121.211 70.3644 124.426 72.5699Z"
-              fill="#D9D9D9"
-              fill-opacity="0.54"
-            />
-          </svg>
+        </Bounce>
+        <Bounce delay={300} triggerOnce>
+          <div className=" w-fit rounded-3xl p-4 relative flex flex-col items-center">
+            <svg
+              width="206"
+              height="118"
+              viewBox="0 0 206 118"
+              fill="none"
+              className="hidden md:block"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M205.307 115.015C205.765 111.073 206 107.064 206 103C206 46.1147 159.885 0 103 0C46.1147 0 0 46.1147 0 103C0 107.854 0.335721 112.629 0.985209 117.304C4.14398 115.216 7.93002 114 12 114H199C201.204 114 203.324 114.356 205.307 115.015Z"
+                fill="#D9D9D9"
+                fill-opacity="0.54"
+              />
+            </svg>
+            <svg
+              width="126"
+              height="75"
+              viewBox="0 0 126 75"
+              fill="none"
+              className="block md:hidden"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M124.426 72.5699C124.968 69.2631 125.249 65.8689 125.249 62.409C125.249 27.9415 97.308 0 62.8405 0C28.3729 0 0.431458 27.9415 0.431458 62.409C0.431458 66.6266 0.849829 70.7465 1.64733 74.7294C5.24925 71.2293 10.165 69.0739 15.5842 69.0739H113.126C117.32 69.0739 121.211 70.3644 124.426 72.5699Z"
+                fill="#D9D9D9"
+                fill-opacity="0.54"
+              />
+            </svg>
 
-          <img
-            className="absolute bottom-[79px] left-[26px] md:bottom-[104px] md:left-[32px] rounded-full w-[69%] h-[52%] md:w-[75%] md:h-[60%]"
-            src="https://ik.imagekit.io/qz6ubt34n4/the-address-dubai-marina.jpg?updatedAt=1718649740616"
-            alt=""
-          />
-          <div
-            className="bg-[#FCFCFC] w-fit rounded-3xl px-[30px] md:px-[60px] pt-[50px] md:pt-[100px] pb-[20px]"
-            style={{ boxShadow: "0px 14px 34px -10px #7E7E7E59" }}
-          >
-            <p className="text-[#00357B] poppins-bold font-semibold text-center text-xs md:text-base">
-              Gymnasium <br />& FItness
-            </p>
+            <img
+              className="absolute bottom-[79px] left-[26px] md:bottom-[104px] md:left-[32px] rounded-full w-[69%] h-[52%] md:w-[75%] md:h-[60%]"
+              src="https://ik.imagekit.io/qz6ubt34n4/the-address-dubai-marina.jpg?updatedAt=1718649740616"
+              alt=""
+            />
+            <div
+              className="bg-[#FCFCFC] w-fit rounded-3xl px-[30px] md:px-[60px] pt-[50px] md:pt-[100px] pb-[20px]"
+              style={{ boxShadow: "0px 14px 34px -10px #7E7E7E59" }}
+            >
+              <p className="text-[#00357B] poppins-bold font-semibold text-center text-xs md:text-base">
+                Gymnasium <br />& FItness
+              </p>
+            </div>
           </div>
-        </div>
+        </Bounce>
       </section>
 
       <p className="poppins-400 font-light text-[#686868] text-center text-xs md:text-end mx-2 md:mx-44 mb-6">

@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade } from "react-awesome-reveal";
 
 export default function ProertyImages() {
   const images = [
@@ -31,35 +32,37 @@ export default function ProertyImages() {
           return (
             <>
               {/* You can open the modal using document.getElementById('ID').showModal() method */}
-              <div key={idx}>
-                <button
-                  className=""
-                  onClick={() =>
-                    document.getElementById(`my_modal_${idx}`).showModal()
-                  }
-                >
-                  <img
-                    src={e}
-                    alt=""
-                    className="w-[86px] md:w-[270px] h-[55px] md:h-[170px] rounded"
-                  />
-                </button>
-                <dialog id={`my_modal_${idx}`} className="modal">
-                  <div className="modal-box md:max-w-full">
-                    <form method="dialog">
-                      {/* if there is a button in form, it will close the modal */}
-                      <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                        ✕
-                      </button>
-                    </form>
+              <Fade triggerOnce>
+                <div key={idx}>
+                  <button
+                    className=""
+                    onClick={() =>
+                      document.getElementById(`my_modal_${idx}`).showModal()
+                    }
+                  >
                     <img
                       src={e}
                       alt=""
-                      className="md:w-[100vw] md:h-[100vh] px-4"
+                      className="w-[86px] md:w-[270px] h-[55px] md:h-[170px] rounded"
                     />
-                  </div>
-                </dialog>
-              </div>
+                  </button>
+                  <dialog id={`my_modal_${idx}`} className="modal">
+                    <div className="modal-box md:max-w-full">
+                      <form method="dialog">
+                        {/* if there is a button in form, it will close the modal */}
+                        <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+                          ✕
+                        </button>
+                      </form>
+                      <img
+                        src={e}
+                        alt=""
+                        className="md:w-[100vw] md:h-[100vh] px-4"
+                      />
+                    </div>
+                  </dialog>
+                </div>
+              </Fade>
             </>
           );
         })}
