@@ -33,7 +33,7 @@ https://github.com/prathameshpanse51/ScizersTechnologiesLLP/assets/93512551/e114
 ![screencapture-scizerstechnologiesllp-netlify-app-2024-06-18-12_50_12](https://github.com/prathameshpanse51/ScizersTechnologiesLLP/assets/93512551/c0cd1219-9501-4156-b3bb-f7d048b84c0c)
 
  2. Mobile
- 3.   
+   
  ![iPhone-13-PRO-scizerstechnologiesllp netlify app](https://github.com/prathameshpanse51/ScizersTechnologiesLLP/assets/93512551/d8271584-da09-432e-88d9-cce9c095e5bf)
 
 
