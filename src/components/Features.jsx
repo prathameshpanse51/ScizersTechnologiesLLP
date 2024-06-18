@@ -30,11 +30,11 @@ export default function Features() {
               className="hidden md:block"
             >
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M205.307 115.015C205.765 111.073 206 107.064 206 103C206 46.1147 159.885 0 103 0C46.1147 0 0 46.1147 0 103C0 107.854 0.335721 112.629 0.985209 117.304C4.14398 115.216 7.93002 114 12 114H199C201.204 114 203.324 114.356 205.307 115.015Z"
                 fill="#D9D9D9"
-                fill-opacity="0.54"
+                fillOpacity="0.54"
               />
             </svg>
             <svg
@@ -46,11 +46,11 @@ export default function Features() {
               className="block md:hidden"
             >
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M124.426 72.5699C124.968 69.2631 125.249 65.8689 125.249 62.409C125.249 27.9415 97.308 0 62.8405 0C28.3729 0 0.431458 27.9415 0.431458 62.409C0.431458 66.6266 0.849829 70.7465 1.64733 74.7294C5.24925 71.2293 10.165 69.0739 15.5842 69.0739H113.126C117.32 69.0739 121.211 70.3644 124.426 72.5699Z"
                 fill="#D9D9D9"
-                fill-opacity="0.54"
+                fillOpacity="0.54"
               />
             </svg>
 
@@ -81,11 +81,11 @@ export default function Features() {
               className="hidden md:block"
             >
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M205.307 115.015C205.765 111.073 206 107.064 206 103C206 46.1147 159.885 0 103 0C46.1147 0 0 46.1147 0 103C0 107.854 0.335721 112.629 0.985209 117.304C4.14398 115.216 7.93002 114 12 114H199C201.204 114 203.324 114.356 205.307 115.015Z"
                 fill="#D9D9D9"
-                fill-opacity="0.54"
+                fillOpacity="0.54"
               />
             </svg>
             <svg
@@ -97,11 +97,11 @@ export default function Features() {
               className="block md:hidden"
             >
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M124.426 72.5699C124.968 69.2631 125.249 65.8689 125.249 62.409C125.249 27.9415 97.308 0 62.8405 0C28.3729 0 0.431458 27.9415 0.431458 62.409C0.431458 66.6266 0.849829 70.7465 1.64733 74.7294C5.24925 71.2293 10.165 69.0739 15.5842 69.0739H113.126C117.32 69.0739 121.211 70.3644 124.426 72.5699Z"
                 fill="#D9D9D9"
-                fill-opacity="0.54"
+                fillOpacity="0.54"
               />
             </svg>
 
@@ -132,11 +132,11 @@ export default function Features() {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M205.307 115.015C205.765 111.073 206 107.064 206 103C206 46.1147 159.885 0 103 0C46.1147 0 0 46.1147 0 103C0 107.854 0.335721 112.629 0.985209 117.304C4.14398 115.216 7.93002 114 12 114H199C201.204 114 203.324 114.356 205.307 115.015Z"
                 fill="#D9D9D9"
-                fill-opacity="0.54"
+                fillOpacity="0.54"
               />
             </svg>
             <svg
@@ -148,11 +148,11 @@ export default function Features() {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M124.426 72.5699C124.968 69.2631 125.249 65.8689 125.249 62.409C125.249 27.9415 97.308 0 62.8405 0C28.3729 0 0.431458 27.9415 0.431458 62.409C0.431458 66.6266 0.849829 70.7465 1.64733 74.7294C5.24925 71.2293 10.165 69.0739 15.5842 69.0739H113.126C117.32 69.0739 121.211 70.3644 124.426 72.5699Z"
                 fill="#D9D9D9"
-                fill-opacity="0.54"
+                fillOpacity="0.54"
               />
             </svg>
 
@@ -183,11 +183,11 @@ export default function Features() {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M205.307 115.015C205.765 111.073 206 107.064 206 103C206 46.1147 159.885 0 103 0C46.1147 0 0 46.1147 0 103C0 107.854 0.335721 112.629 0.985209 117.304C4.14398 115.216 7.93002 114 12 114H199C201.204 114 203.324 114.356 205.307 115.015Z"
                 fill="#D9D9D9"
-                fill-opacity="0.54"
+                fillOpacity="0.54"
               />
             </svg>
             <svg
@@ -199,11 +199,11 @@ export default function Features() {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M124.426 72.5699C124.968 69.2631 125.249 65.8689 125.249 62.409C125.249 27.9415 97.308 0 62.8405 0C28.3729 0 0.431458 27.9415 0.431458 62.409C0.431458 66.6266 0.849829 70.7465 1.64733 74.7294C5.24925 71.2293 10.165 69.0739 15.5842 69.0739H113.126C117.32 69.0739 121.211 70.3644 124.426 72.5699Z"
                 fill="#D9D9D9"
-                fill-opacity="0.54"
+                fillOpacity="0.54"
               />
             </svg>
 

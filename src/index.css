@@ -2,16 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-body::-webkit-scrollbar {
-  width: 1px;
+* {
+  scrollbar-color: inherit;
 }
 
-body::-webkit-scrollbar-track {
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
   background-color: transparent;
 }
 
-body::-webkit-scrollbar-thumb {
-  background-color: #852c02;
+::-webkit-scrollbar-thumb {
+  background-color: #024c85;
   border: 3px solid transparent;
   border-radius: 6px;
   background-clip: content-box;

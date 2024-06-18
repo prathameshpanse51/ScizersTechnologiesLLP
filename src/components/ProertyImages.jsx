@@ -32,8 +32,8 @@ export default function ProertyImages() {
           return (
             <>
               {/* You can open the modal using document.getElementById('ID').showModal() method */}
-              <Fade triggerOnce>
-                <div key={idx}>
+              <Fade triggerOnce key={idx}>
+                <div>
                   <button
                     className=""
                     onClick={() =>
