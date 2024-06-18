@@ -2,10 +2,17 @@ import React from "react";
 import { Bounce, Fade, Roll, Slide } from "react-awesome-reveal";
 
 export default function Landing() {
+  const hide = () => {
+    document.getElementById("hideDiv").style.opacity = "0";
+  };
+  const notHide = () => {
+    document.getElementById("hideDiv").style.opacity = "1";
+  };
+
   return (
     <>
       <div className="bg-cover md:min-h-screen bg-no-repeat bg-[url(https://ik.imagekit.io/qz6ubt34n4/phoneLandingImg.png?updatedAt=1718628219498)] md:bg-[url(https://ik.imagekit.io/qz6ubt34n4/landingImg.jpg?updatedAt=1718620101765)]">
-        <div className="hero-overlay bg-opacity-0"></div>
+        <div className="hero-overlay bg-opacity-0" onClick={notHide}></div>
         <div className="mx-auto hero-content text-white">
           <div className="">
             <Slide direction="down" triggerOnce>
@@ -30,6 +37,7 @@ export default function Landing() {
                       tabIndex={0}
                       role="button"
                       className="btn btn-ghost lg:hidden"
+                      onClick={hide}
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -48,11 +56,16 @@ export default function Landing() {
                     </div>
                     <ul
                       tabIndex={0}
-                      className="right-0 menu menu-sm dropdown-content mt-3 z-[1] p-6 py-10 h-[80vh] shadow bg-base-100 rounded-box w-[80vw]"
+                      className="right-0 menu menu-sm dropdown-content mt-3 z-[999] p-6 py-10 h-[80vh] shadow bg-base-100 rounded-box w-[80vw]"
                     >
                       <li>
                         <a className="poppins-bold btn rounded-lg tracking-wider py-[12px] px-[44px] border-[3px] border-[#17ABFF] text-[#17ABFF] text-sm font-bold bg-transparent hover:bg-[#17ABFF] hover:border-[#17ABFF] hover:text-white hover:transition hover:duration-1000">
                           ENQUIRE NOW
+                        </a>
+                      </li>
+                      <li onClick={notHide}>
+                        <a className="poppins-bold btn rounded-lg tracking-wider py-[12px] px-[44px] border-[3px] border-black text-black text-sm font-bold bg-transparent hover:bg-black hover:border-black hover:text-white hover:transition hover:duration-1000 mt-10">
+                          Back
                         </a>
                       </li>
                     </ul>
@@ -67,10 +80,14 @@ export default function Landing() {
               </div>
             </Slide>
 
-            <main className="flex flex-col md:flex-row items-center justify-between mt-2 md:mt-28 md:mx-6">
+            <main
+              onClick={notHide}
+              className="flex flex-col md:flex-row items-center justify-between mt-2 md:mt-28 md:mx-6"
+              id="hideDiv"
+            >
               <div className="flex flex-col gap-6">
                 <Fade duration={2000} triggerOnce>
-                  <h1 className="oswald-500 uppercase text-4xl md:text-5xl leading-[50px] md:leading-[60px]">
+                  <h1 className="oswald-500 uppercase text-4xl md:text-5xl leading-[50px] md:leading-[60px] ">
                     Harbour Lights <br /> de{" "}
                     <span className="text-[#17ABFF]">GRESOGONO</span>
                   </h1>
